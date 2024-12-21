@@ -1,0 +1,49 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 290, in script call
+    call random_encounter("Sherlock")
+  File "game/script.rpy", line 212, in script call
+    call handle_battle(enemy_name, character_role)
+  File "game/script.rpy", line 185, in script
+    while current_player_health > 0 and enemy_health > 0 and battle_success:
+  File "game/script.rpy", line 290, in script call
+    call random_encounter("Sherlock")
+  File "game/script.rpy", line 212, in script call
+    call handle_battle(enemy_name, character_role)
+  File "game/script.rpy", line 185, in script
+    while current_player_health > 0 and enemy_health > 0 and battle_success:
+Exception: Possible infinite loop.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\User\Desktop\renpy-8.3.3-sdk\renpy\bootstrap.py", line 359, in bootstrap
+    renpy.main.main()
+  File "C:\Users\User\Desktop\renpy-8.3.3-sdk\renpy\main.py", line 652, in main
+    run(restart)
+  File "C:\Users\User\Desktop\renpy-8.3.3-sdk\renpy\main.py", line 148, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\User\Desktop\renpy-8.3.3-sdk\renpy\execution.py", line 958, in run_context
+    context.run()
+  File "game/script.rpy", line 290, in script call
+    call random_encounter("Sherlock")
+  File "game/script.rpy", line 212, in script call
+    call handle_battle(enemy_name, character_role)
+  File "game/script.rpy", line 185, in script
+    while current_player_health > 0 and enemy_health > 0 and battle_success:
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "game/script.rpy", line 290, in script call
+    call random_encounter("Sherlock")
+  File "game/script.rpy", line 212, in script call
+    call handle_battle(enemy_name, character_role)
+  File "game/script.rpy", line 185, in script
+    while current_player_health > 0 and enemy_health > 0 and battle_success:
+  File "C:\Users\User\Desktop\renpy-8.3.3-sdk\renpy\execution.py", line 61, in check_infinite_loop
+    raise Exception("Possible infinite loop.")
+Exception: Possible infinite loop.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.3.3.24111502
+SherlockvsMoriarty 1.0
+Thu Dec 19 14:45:26 2024
