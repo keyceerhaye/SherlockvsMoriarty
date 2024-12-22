@@ -56,7 +56,7 @@ To play *Sherlock vs. Moriarty*, ensure you have the following:
 1. Install [Ren'Py](https://www.renpy.org/) on your system.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/sherlock-vs-moriarty.git
+   git clone https://github.com/keyceerhaye/SherlockvsMoriarty.git
    ```
 3. Open the project in Ren'Py.
 4. Launch the game using the **Launch Project** button.
