@@ -84,7 +84,6 @@ We welcome contributions to improve the game! Here's how you can contribute:
 
 - **Sir Arthur Conan Doyle**: For creating the timeless characters of Sherlock Holmes and Professor Moriarty.
 - **Ren'Py Community**: For their support and resources.
-- Our incredible development team and beta testers for their dedication.
 
 ---
 
